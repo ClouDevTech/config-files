@@ -20,13 +20,6 @@ spec:
               name: http
             - containerPort: 50000
               name: jnlp
-          resources:
-            limits:
-              cpu: "500m"
-              memory: "512Mi"
-            requests:
-              cpu: "250m"
-              memory: "250Mi"
           volumeMounts:
             - name: jenkins-data
               mountPath: /var/jenkins_home
