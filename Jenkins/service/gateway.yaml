@@ -1,8 +1,8 @@
 apiVersion: networking.istio.io/v1alpha3
 kind: Gateway
 metadata:
-  name: jenkins-gateway
-  namespace: jenkins
+  name: default-gateway
+  namespace: default
 spec:
   selector:
     istio: ingressgateway # Use istio default controller

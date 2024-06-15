@@ -5,9 +5,9 @@ metadata:
   namespace: jenkins
 spec:
   hosts:
-  - "jenkins.example.com" # Replace with your desired hostname
+  - "*" # Replace with your desired hostname
   gateways:
-  - jenkins-gateway # Ensure you have a gateway configured
+  - default/default-gateway # Ensure you have a gateway configured
   http:
   - match:
     - uri:
