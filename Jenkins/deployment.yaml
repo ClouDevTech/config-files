@@ -29,8 +29,9 @@ spec:
               name: http
             - containerPort: 50000
               name: jnlp
-          environment:
-          - JENKINS_OPTS="--prefix=/jenkins"
+          env:
+            - name: JENKINS_OPTS
+              value: "--prefix=/jenkins"
           volumeMounts:
             - name: jenkins-data
               mountPath: /var/jenkins_home
