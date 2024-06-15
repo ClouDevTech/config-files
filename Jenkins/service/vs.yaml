@@ -1,0 +1,19 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: jenkins
+  namespace: jenkins
+spec:
+  hosts:
+  - "jenkins.example.com" # Replace with your desired hostname
+  gateways:
+  - jenkins-gateway # Ensure you have a gateway configured
+  http:
+  - match:
+    - uri:
+        prefix: "/"
+    route:
+    - destination:
+        host: jenkins.jenkins.svc.cluster.local
+        port:
+          number: 8080
