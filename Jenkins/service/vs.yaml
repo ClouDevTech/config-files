@@ -11,7 +11,7 @@ spec:
   http:
   - match:
     - uri:
-        prefix: "/"
+        prefix: "/jenkins"
     route:
     - destination:
         host: jenkins.jenkins.svc.cluster.local
