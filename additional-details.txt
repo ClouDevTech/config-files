@@ -12,4 +12,4 @@ initContainers:
 http://jenkins.jenkins.svc.cluster.local:8080
 http://jenkins.jenkins.svc.cluster.local:50000
 
-{"auths":{"azdevopscourse.azurecr.io":{"username": "azdevopscourse","password": "QXbsp6sZzudGi93K5PemkUkbgY1IJUsQVx61YL4JOV+ACRCDaxou","email": "isurupathumherath@gmail.com","auth": "YXpkZXZvcHNjb3Vyc2U6UVhic3A2c1p6dWRHaTkzSzVQZW1rVWtiZ1kxSUpVc1FWeDYxWUw0Sk9WK0FDUkNEYXhvdQ==",},},}
+{"auths":{"azdevopscourse.azurecr.io":{"username": "azdevopscourse","password": "QXbsp6sZzudGi93K5PemkUkbgY1IJUsQVx61YL4JOV+ACRCDaxou","email": "isurupathumherath@gmail.com","auth": "YXpkZXZvcHNjb3Vyc2U6UVhic3A2c1p6dWRHaTkzSzVQZW1rVWtiZ1kxSUpVc1FWeDYxWUw0Sk9WK0FDUkNEYXhvdQ=="}}}
